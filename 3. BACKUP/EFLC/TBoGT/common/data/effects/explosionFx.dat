@@ -1,0 +1,39 @@
+1.0
+
+# MAX END_RADIUS SHOULD BE 15.0
+# ANY NON DIRECTED EXPLOSION SHOULD HAVE A DIRECTED_WIDTH OF 0.0
+
+# COLN TYPE: 1-ground plane, 2-ground bound, 3-vehicle up
+
+
+#			DAMAGE		DAMAGE		NETWORK		NETWORK																									NUM FIRES	FIRE RANGE	CAM	WEAPON		INFINITE	LIGHTS ------------------------------------>	COLN					
+#TYPE			AT		AT		PLAYER		PED		END_RADIUS	INIT_SPEED	DECAY_FACTOR	FORCE_FACTOR	RAGDOLL_MODIFIER	DIRECTED_WIDTH	DIRECTED_LIFE	FX_NAME			FX_AIR_NAME		FX_SCALE	MIN	MAX	MIN	MAX	SHAKE	TYPE		SHOT EXP	R	G	B	INT	RANGE	TIME	TYPE
+#			CENTRE		EDGE		MODIFIER	MODIFIER
+
+EXPLOSIONFX_TABLE_START
+
+# Grenade launcher
+EPISODIC_1		500.0		75.0		2.0		1.0		8.0		 50.0		-1.0		30.0		0.002			0.0		0.0		exp_grenade		exp_grenade_air		1.0		0	0	0.0	0.0	0.6	EPISODIC_5	0		1.0	0.4	0.0	200.0	24.0	0.3	2
+
+# Explosive shotgun
+EPISODIC_2		100.0		50.0		2.0		1.0		1.5	 	 50.0		-1.0		11.0		0.0005			0.0		0.0		weap_AA12_explosion	weap_AA12_explosion	1.0		0	0	0.0	0.0	0.015	EPISODIC_10	0		1.0	0.75	0.2	60.0	3.5	0.15	0
+
+# Anhialator bullets
+EPISODIC_3		500.0		75.0		2.0		1.0		2.36	 	 50.0		-1.0		30.0		0.002			0.0		0.0		exp_grenade		exp_grenade_air		0.2		0	0	0.0	0.0	0.1575	MINIGUN		0		1.0	0.3	0.0	200.0	2.0	0.3	0
+
+# APC explosive rounds
+EPISODIC_4		90.0		40.0		2.0		1.0		1.5	 	 50.0		-1.0		11.0		0.0025			0.0		0.0		weap_AA12_explosion	weap_AA12_explosion	1.0		0	0	0.0	0.0	0.0	EPISODIC_20	0		1.0	0.75	0.2	60.0	3.5	0.15	0
+
+# Buzzard heli rockets
+EPISODIC_5		300.0		50.0		2.0		1.0		5.0		 50.0		-1.0		20.0		0.003			0.0		0.0		exp_buzzard		exp_buzzard_air		0.9		0	0	0.0	0.0	0.3	EPISODIC_18	0		1.0	0.75	0.2	200.0	18.0	0.4	2
+
+# Non-sorted explosions for Sexy Time mission
+EPISODIC_6		500.0		75.0		2.0		1.0		7.0		 50.0		-1.0		30.0		0.0016			0.0		0.0		exp_no_sorting		exp_no_sorting		1.0		0	0	0.0	0.0	0.6	GRENADE		0		1.0	0.3	0.0	250.0	30.0	0.3	0
+
+# Sitcky bomb explosions
+EPISODIC_7		500.0		75.0		2.0		1.0		7.0		 50.0		-1.0		30.0		0.0016			0.0		0.0		exp_grenade		exp_grenade_air		1.0		0	0	0.0	0.0	0.6	EPISODIC_16	0		1.0	0.3	0.0	250.0	24.0	0.3	2
+
+# Super punch cheat explosions
+EPISODIC_8		100.0		50.0		2.0		1.0		1.5	 	 50.0		-1.0		121.0		0.0005			0.0		0.0		weap_AA12_explosion	weap_AA12_explosion	1.0		0	0	0.0	0.0	0.015	EPISODIC_10	0		1.0	0.75	0.2	60.0	3.5	0.15	0
+
+EXPLOSIONFX_TABLE_END

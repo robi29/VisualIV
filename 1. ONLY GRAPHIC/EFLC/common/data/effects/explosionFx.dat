@@ -1,0 +1,18 @@
+1.0
+EXPLOSIONFX_TABLE_START
+GRENADE 300 10 2 1 7  50 -3 60 .0016 0 0 exp_grenade exp_grenade_air 1 0 0 0 0 .9 GRENADE 0 1 .3 0 250 30 .8 2
+MOLOTOV 30 10 2 1 3 50 -.8 .001 .0035 0 0 exp_molotov exp_molotov_air 1 20 40 0 1.2 0 MOLOTOV 0 1 .4 0 40 15 .8 2
+ROCKET 600 10 2 1 7 50 -1 40 .003 0 0 exp_rocket exp_rocket_air 1 2 4 0 .2 1.2 ROCKET 0 1 .5 .1 400 50 .8 2
+HI_OCTANE 400 10 2 1 8 100 -2 30 .0004 0 0 exp_fireball exp_fireball_air 1.2 30 50 0 .6 0.8 EXPLOSION 0 1 .5 .1 250 40 .6 2
+CAR 500 10 2 1 7 60 -1 8 .0035 0 0 exp_vehicle exp_vehicle_air 1.6 30 50 0 2 .8 EXPLOSION 0 1 .5 .1 200 50 .6 2
+PLANE 900 10 2 1 18 60 -1 8 .0035 0 0 exp_vehicle exp_vehicle_air 2 40 60 0 3 1.4 EXPLOSION 0 1 .5 .1 250 60 .6 2
+PETROL_PUMP 500 10 2 1 7 100 -1.2 28 .0035 0 0 exp_petrol_pump exp_petrol_pump 1.2 20 40 0 .8 0.8 EXPLOSION 0 1 .5 .1 350 40 .8 2
+BIKE 400 10 2 1 5 50 -1 4 .0035 0 0 exp_vehicle exp_vehicle_air 1.4 15 25 0 .4 0.6 EXPLOSION 0 1 .6 .2 150 30 .6 2
+DIR_STEAM 30 10 2 1 2 50 -.12 4 .0035 .5 6 shot_directed_steam shot_directed_steam 1 0 0 0 0 0 EXPLOSION 1 0 0 0 0 0 0 2
+DIR_FLAME 400 10 2 1 5 50 -.25 14 .002 .5 2.5 shot_directed_flame shot_directed_flame 1 3 5 0 0 0 EXPLOSION 1 1 .4 .1 12 20 8 2
+DIR_WATER_HYDRANT 5 10 2 1 6 15 -.12 10 .005 .5 12 water_hydrant_top water_hydrant_top 1 0 0 0 0 0 EXPLOSION 1 0 0 0 0 0 0 3
+DIR_GAS_CANISTER 400 10 2 1 5 50 -.25 6 .0035 .5 2.5 shot_gas_canister shot_gas_canister 1 10 15 0 .5 .2 EXPLOSION 0 1 .5 .2 40 20 8 2
+BOAT 800 10 2 1 9 50 -1 12 .0035 0 0 exp_vehicle exp_vehicle_air 1.8 15 30 0 1.8 1.3 EXPLOSION 0 1 .5 .1 350 70 .6 2
+SHIP_DESTROY 999 10 2 1 12 100 -1.2 60 .0035 0 0 exp_ship_destroy exp_ship_destroy 1.5 30 50 0 2.5 .9 EXPLOSION 0 1 .5 .1 250 40 1 2
+TRUCK 650 10 2 1 8 60 -1 8 .0035 0 0 exp_vehicle exp_vehicle_air 1.7 30 60 0 2.4 1.1 EXPLOSION 0 1 .5 .1 350 65 .6 2
+EXPLOSIONFX_TABLE_END
