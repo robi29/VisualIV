@@ -1,8 +1,1 @@
-PL:
-
-- dodaje wiêcej ludzi i pojazdów
-
-
-ENG:
-
-- adds more pedestrians and vehicles
+This particular bonus adds more pedestrians and vehicles in the traffic, making Liberty City more dense.

@@ -1,14 +1,20 @@
-VisualIV v1.8 - graphic modification for RAGE Grand Theft Auto IV and Grand Theft Auto Episodes from Liberty City
+VisualIV v1.9 - graphic modification for Grand Theft Auto IV: The Complete Edition
 by robi29 and _CP_
 
+===============INSTALLATION=============== 
+1. Install FusionFix - https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix/releases
+2. Go to Grand Theft Auto IV\GTAIV\update folder (create "update" folder if doesn't exist)
+3. Copy common and pc folders from "1. ONLY GRAPHIC\Grand Theft Auto IV" and paste them to update folder.
 
--------------ENG:-------------
+
+===============INSTALLATION FOR NON COMPLETE EDITION=============== 
+1. Download Ultimate ASI Loader - https://github.com/ThirteenAG/Ultimate-ASI-Loader/releases/tag/v5.4
+2. Go to Grand Theft Auto IV\GTAIV\ folder .
+3. Copy and paste common and pc folders from "1. ONLY GRAPHIC\Grand Theft Auto IV" paste them to GTAIV folder.
+4. Depending of game version, or xliveless and FileCheckFix may be needed (if you have patch 1.0.1.0-1.0.0.4).
 
 
-Install ASILoader (or xliveless) and FileCheckFix (if you have patch 1.0.1.0-1.0.0.4).
-
-
-Support for:
+Game versions supported:
 Grand Theft Auto IV:
 - 1.0.0.0
 - 1.0.1.0
@@ -23,20 +29,16 @@ Grand Theft Auto Episodes from Liberty City:
 - 1.1.1.0
 - 1.1.2.0
 
-
-Installation:
-
-Installation is very easy - copy all folders (without backups and BONUSES) to main folder of game (GTAIV or EFLC).
+Grand Theft Auto IV: The Complete Edition
+- 1.2.0.59
 
 
-Used modifications:
+Modifications included:
 - Ultimate Graphics Tweak
 - Improved Under-Car/Bike Shadows
 
 
 Recommended mods:
-- Ultimate Textures v2.0
-- FXAA Injector or FXAA in nVidia drivers/SMAA in AMD drivers
 - Realistic Driving & Flying
 - Graphical Bug Fixes by nkjellman
 - Project 2dfx
@@ -44,65 +46,13 @@ Recommended mods:
 
 Thanks to:
 - _CP_ for idea and made some things
-- adijaga2 for help with visualsettings.dat
-- Julek for the stars
-- lucysyf@justcause.pl for help to mod
-- Darecki for documentation ENB
-- all users who support us
+- Parallellines for his rewritten logarithmic depth buffer to solve z-fighting fix
+- Every person from Fusion Team for their engagement to make GTA IV great again
+- adijaga2 for his help with visualsettings.dat edits
+- Julek for the improved stars texture
+- lucysyf@justcause.pl for his time and effort to help us with the mod
+- Darecki for ENB documentation
+- all users who were supporting us throughout the years
 
 
 Best regards and wish you a nice game!
-
-
--------------PL:-------------
-
-
-Zainstaluj Asi Loader (lub xliveless) i FileCheckFix (jeœli posiadasz patch 1.0.1.0-1.0.0.4).
-
-
-Wsparcie dla:
-
-Grand Theft Auto IV:
-- 1.0.0.0
-- 1.0.1.0
-- 1.0.2.0
-- 1.0.3.0
-- 1.0.4.0
-- 1.0.0.4
-- 1.0.6.0
-- 1.0.7.0
-
-Grand Theft Auto Episodes from Liberty City:
-- 1.1.0.0
-- 1.1.1.0
-- 1.1.2.0
-
-
-Instalacja:
-
-Instalacja jest bardzo prosta - skopiuj wszystkie foldery (oprócz kopii i bonusów) do g³ównego folderu gry (GTAIV lub EFLC)
-
-
-Wykorzystane modyfikacje:
-- Ultimate Graphics Tweak
-- Improved Under-Car/Bike Shadows
-
-
-Polecamy:
-- Ultimate Textures v2.0
-- FXAA Injector lub FXAA w sterownikach nVidii/SMAA w sterownikach AMD
-- Realistic Driving & Flying
-- Graphical Bug Fixes by nkjellman
-- Project 2dfx
-
-
-Podziêkowania dla:
-- _CP_ za pomys³ i wykonanie kilku rzeczy
-- adijaga2 za pomoc w visualsettings.dat
-- Julek za gwiazdy
-- lucysyf@justcause.pl za pomoc przy modzie
-- Darecki za dokumentacjê ENB
-- wszystkich u¿ytkowników, którzy nas wspieraj¹
-
-
-Pozdrawiamy i ¿yczymy mi³ej gry!
