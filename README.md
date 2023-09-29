@@ -40,7 +40,6 @@ Modifications included:
 
 Recommended mods:
 - Realistic Driving & Flying
-- Graphical Bug Fixes by nkjellman
 - Project 2dfx
 
 
